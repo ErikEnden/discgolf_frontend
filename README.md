@@ -1,4 +1,4 @@
-# rp-frontend
+# discgolf-frontend
 
 ## Project setup
 ```
