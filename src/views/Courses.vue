@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <p>rajad</p>
+        <button class="button" @click="addCourse">Lisa</button>
         <course-table></course-table>
     </div>
 </template>
@@ -10,6 +10,11 @@ import CourseTable from '@/components/reusables/CourseTable.vue'
 export default {
   components: {
     CourseTable
+  },
+  methods: {
+    addCourse: function () {
+      this.$router.push('/courses/add')
+    }
   }
 }
 </script>

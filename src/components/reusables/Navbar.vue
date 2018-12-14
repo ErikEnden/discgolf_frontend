@@ -7,7 +7,7 @@
             <div class="navbar-end">
                 <router-link to="/courses" class="navbar-item">Rajad</router-link>
                 <router-link to="/players" class="navbar-item">Mängijad</router-link>
-                <router-link to="/game" class="navbar-item">Uus mng</router-link>
+                <router-link to="/games" class="navbar-item">Uus mäng</router-link>
             </div>
         </div>
     </nav>

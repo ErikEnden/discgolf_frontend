@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <p>mngijad</p>
+        <p>Mängijad</p>
         <player-table></player-table>
     </div>
 </template>

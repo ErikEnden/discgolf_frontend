@@ -3,7 +3,10 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Courses from './views/Courses.vue'
 import Players from './views/Players.vue'
-import Game from './views/Game.vue'
+import Games from './views/Games.vue'
+import NewGame from './views/NewGame.vue'
+import Course from './views/Course.vue'
+import AddCourse from './views/AddCourse.vue'
 
 Vue.use(Router)
 
@@ -27,9 +30,24 @@ export default new Router({
       component: Players
     },
     {
-      path: '/game',
-      name: 'game',
-      component: Game
+      path: '/games',
+      name: 'games',
+      component: Games
+    },
+    {
+      path: '/startgame',
+      name: 'newgame',
+      component: NewGame
+    },
+    {
+      path: '/course/:id',
+      name: 'course',
+      component: Course
+    },
+    {
+      path: '/courses/add',
+      name: 'addcourse',
+      component: AddCourse
     }
   ]
 })
